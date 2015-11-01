@@ -1,15 +1,17 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FCB34D669182504574F4A3343BB6410C02872415",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D84D6F545ACC0CF12018A9D0B115467B2302D574",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "48D1D77F8E696CFD83C9D9AC0D062062AD5CA998" : 0,
+    "D84D6F545ACC0CF12018A9D0B115467B2302D574" : 0,
     "FCB34D669182504574F4A3343BB6410C02872415" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "317D104C-1F34-453D-9C87-88AEC67D09DB",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "48D1D77F8E696CFD83C9D9AC0D062062AD5CA998" : "Auntie%20Player\/ThunderRequest\/",
+    "D84D6F545ACC0CF12018A9D0B115467B2302D574" : "apple-tv\/",
     "FCB34D669182504574F4A3343BB6410C02872415" : "Auntie%20Player\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Auntie Player",
@@ -20,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:3sidedcube\/iOS-ThunderRequest.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "48D1D77F8E696CFD83C9D9AC0D062062AD5CA998"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Auntie-Player\/apple-tv",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D84D6F545ACC0CF12018A9D0B115467B2302D574"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:MattCheetham\/Auntie-Player.git",

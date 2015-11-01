@@ -53,6 +53,8 @@ typedef void (^ContentURLCompletion)(NSURL *episodeURL, NSError *Error);
 
 - (void)getEpisodesForSearchTerm:(NSString *)searchTerm completion:(ContentCompletion)completion;
 
+- (void)getEpisodesForProgrammeByString:(NSString *)programme completion:(ContentCompletion)completion;
+
 //
 //- (void)episodesForCategory:(EpisodeCategory)category completion:(ContentCompletion)completion;
 //

@@ -314,6 +314,36 @@
     }];
 }
 
+
+- (void)getEpisodesForProgrammeByString:(NSString *)programme completion:(ContentCompletion)completion
+{
+    [self.listingsRequestController get:@"programmes/(:programmeIdentifier)/episodes?lang=en&rights=mobile&page=1&per_page=200&availability=available&api_key=x5pfeqccnm6j52mp9c298qdm" withURLParamDictionary:@{@"programmeIdentifier":programme} completion:^(TSCRequestResponse * _Nullable response, NSError * _Nullable error) {
+
+        if (error) {
+            completion(nil, error);
+            return;
+        }
+
+        NSArray *episodesArray = response.dictionary[@"programme_episodes"][@"elements"];
+
+        NSMutableArray *episodes = [NSMutableArray array];
+        for (NSDictionary *episodeItem in episodesArray) {
+
+            Episode *episodeObject = [[Episode alloc] initWithDictionary:episodeItem];
+
+            if (episodeObject.subtitle) {
+                [episodes addObject:episodeObject];
+            }
+
+        }
+
+        if (completion) {
+            completion(episodes, nil);
+        }
+    }];
+
+}
+
 - (void)getEpisodesForProgramme:(Programme *)programme completion:(ContentCompletion)completion
 {
     [self.listingsRequestController get:@"programmes/(:programmeIdentifier)/episodes?lang=en&rights=mobile&page=1&per_page=200&availability=available&api_key=x5pfeqccnm6j52mp9c298qdm" withURLParamDictionary:@{@"programmeIdentifier":programme.identifier} completion:^(TSCRequestResponse * _Nullable response, NSError * _Nullable error) {
@@ -351,6 +381,9 @@
             completion(nil, error);
             return;
         }
+        
+        NSDictionary *foo = response.dictionary;
+        
         
         NSArray *episodesArray = response.dictionary[@"episode_recommendations"][@"elements"];
         

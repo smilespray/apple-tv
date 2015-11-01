@@ -50,4 +50,6 @@
 
 @property (nonatomic, strong) EpisodeVersion *signedVersion;
 
+@property (nonatomic, copy) NSString *tleo_id;
+
 @end

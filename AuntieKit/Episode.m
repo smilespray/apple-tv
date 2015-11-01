@@ -46,6 +46,15 @@
                 self.title = dictionary[@"title"];
                 
             }
+
+
+            if (dictionary[@"tleo_id"] && [dictionary[@"tleo_id"] isKindOfClass:[NSString class]]) {
+
+                self.tleo_id = dictionary[@"tleo_id"];
+
+            }
+
+
             
             if (dictionary[@"subtitle"] && [dictionary[@"subtitle"] isKindOfClass:[NSString class]]) {
                 

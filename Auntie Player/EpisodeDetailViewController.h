@@ -45,6 +45,8 @@
 @property (nonatomic, strong) UIButton *signedButton;
 @property (nonatomic, strong) EpisodeCollectionView *relatedEpisodeView;
 
+@property (nonatomic, strong) EpisodeCollectionView *relatedProgramView;
+
 - (instancetype)initWithEpisode:(Episode *)episode;
 
 @end
