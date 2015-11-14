@@ -381,7 +381,7 @@
 				TargetAttributes = {
 					493EA43C1BD1300D00B0C50D = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = U449UM6X3P;
+						DevelopmentTeam = RDYFV3929A;
 					};
 					493EA4581BD1304E00B0C50D = {
 						CreatedOnToolsVersion = 7.1;
@@ -600,7 +600,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Auntie Player/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bigtedltd.auntieplayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snorremilde.auntieplayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -615,7 +615,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Auntie Player/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bigtedltd.auntieplayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snorremilde.auntieplayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

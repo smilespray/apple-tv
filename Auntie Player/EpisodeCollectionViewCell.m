@@ -48,7 +48,7 @@
         self.detailLabel.textColor = [UIColor lightGrayColor];
         self.detailLabel.textAlignment = NSTextAlignmentCenter;
         self.detailLabel.font = [UIFont systemFontOfSize:24];
-        self.detailLabel.alpha = 0;
+        self.detailLabel.alpha = 0.5;
         [self.contentView addSubview:self.detailLabel];
     }
     
@@ -80,7 +80,7 @@
             self.detailLabel.alpha = 1.0;
         } else {
             self.textLabel.textColor = [UIColor whiteColor];
-            self.detailLabel.alpha = 0.0;
+            self.detailLabel.alpha = 0.5;
         }
         
     } completion:nil];

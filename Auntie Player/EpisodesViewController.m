@@ -75,8 +75,11 @@
 - (void)playChannel:(Channel *)channel
 {
     
+    /*
     UIAlertController *licensingAlert = [UIAlertController alertControllerWithTitle:@"TV Licensing" message:@"Don't forget, to watch live TV online as it's being broadcast, you still need to be covered by a TV Licence" preferredStyle:UIAlertControllerStyleAlert];
     [licensingAlert addAction:[UIAlertAction actionWithTitle:@"Watch Now" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+        */
         
         AVPlayerViewController *viewController = [[AVPlayerViewController alloc] init];
         viewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
@@ -99,12 +102,14 @@
             viewController.player = player;
             [viewController.player play];
         }];
-        
+    
+    /*
     }]];
     
     [licensingAlert addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:nil]];
     
     [self presentViewController:licensingAlert animated:true completion:nil];
+    */
 
 
 }
